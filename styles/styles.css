@@ -146,6 +146,7 @@ section {
     padding: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #video {
@@ -157,6 +158,9 @@ section {
     width: 50%;
     height: 100%;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .caracteristicas h3 {
@@ -175,10 +179,9 @@ section {
 }
 
 #CONTACTS {
-    padding: 60px 0 0 0;
+    padding: 90px 0 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     background-color: rgba(240, 240, 235, 0.588);
 }
@@ -260,7 +263,8 @@ textarea {
     font-size: 1.2em;
     font-weight: normal;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 480px) {
