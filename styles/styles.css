@@ -326,23 +326,25 @@ textarea {
         flex-direction: column;
     }
 
-    .video{
-        position: relative;
-        top: 57%;
-        width: 100%;
-        padding: 15px;
-    }
-    
-    #video{
-        width: 90%;
-        height: 60%;
-    }
-
     .caracteristicas{
         width: 100%;
+        height: 70%;
         position: relative;
-        top: -37%;
+        top: -30%;
+        padding-top: 140px;
+    }
+
+    .video{
+        width: 100%;
+        height: 30%;
         padding: 25px;
+        position: relative;
+        top: 70%;
+    }
+
+    #video{
+        width: 90%;
+        height: 100%;
     }
 
     .caracteristicas h3{
