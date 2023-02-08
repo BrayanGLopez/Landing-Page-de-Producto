@@ -289,6 +289,7 @@ textarea {
         padding: 0;
         height: 100vh;
         overflow: hidden;
+        min-height: 700px;
     }
 
     #HOME{
@@ -324,20 +325,24 @@ textarea {
 
     #CELL_PHONE{
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0 0 0;
     }
 
     .caracteristicas{
         width: 100%;
         height: 70%;
+        padding: 25px;
         position: relative;
         top: -30%;
-        padding-top: 140px;
     }
 
     .video{
         width: 100%;
         height: 30%;
-        padding: 25px;
+        overflow: hidden;
+        padding: 0 25px;
         position: relative;
         top: 70%;
     }
@@ -348,6 +353,7 @@ textarea {
     }
 
     .caracteristicas h3{
+        padding-top: 10px;
         font-size: 2.3em;
         margin-bottom: 15px;
     }
